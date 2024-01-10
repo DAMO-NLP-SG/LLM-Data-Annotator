@@ -28,30 +28,30 @@ The files under the '**prompt**' folder are prompts used in our work for differe
 
 ```
 cd FewRel/code
-python main.py
 ```
+
 
 #### 3.2. SST2
 
 ```
 cd SST2
-python SST2.py
 ```
+For SST2 we used the codebase from https://github.com/YJiangcm/SST-2-sentiment-analysis to run our experiments.
+
 
 #### 3.3. ASTE
 
 ```
 cd ASTE
-python ASTE.py
 ```
+For ASTE we used the codebase from https://github.com/chiayewken/Span-ASTE to run our experiments.
 
 #### 3.4 CrossNER
 
 ```
 cd CrossNER
-python CrossNER.py
 ```
-
+For CrossNER we used the codebase from https://github.com/allanj/pytorch_neural_crf to run our experiments.
 
 
 
