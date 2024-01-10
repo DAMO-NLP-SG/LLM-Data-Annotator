@@ -57,8 +57,23 @@ cd CrossNER
 ```
 For CrossNER we used the codebase from https://github.com/allanj/pytorch_neural_crf to run our experiments.
 
+#### 4. Usage of GPT-3 API
 
+You may refer to the GPT-3 API reference (https://platform.openai.com/docs/introduction) for more details. 
 
+Here is an example to use GPT-3 API in python:
+
+```
+def prompt_text(prompt_content):
+    result = openai.Completion.create(
+              model="text-davinci-003",
+              prompt=prompt_content,
+              max_tokens=2000,
+              temperature=1.0
+            )
+    result_text = result['choices'][0]['text'].strip()
+    return result_text
+```
 
 ## Citation
 
