@@ -29,11 +29,9 @@ The files under the '**prompt**' folder are prompts used in our work for differe
 ```
 cd FewRel/code
 
-python main.py run_train \
---path_train data/new_split/new_train.json \
---path_test data/new_split/new_train.json \
---epochs 3
 ```
+For FewRel, we wrote a simple relation extraction code, main.py to run our experiments. You may follow the instructions in the FewRel folder to write the code.
+
 
 
 #### 3.2. SST2
