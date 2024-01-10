@@ -13,6 +13,7 @@ Accepted at 61th Annual Meeting of the Association for Computational Linguistics
 ```
 git clone https://github.com/DAMO-NLP-SG/LLM-Data-Annotator
 cd LLM-Data-Annotator
+unzip Data&Prompts&Codes.zip
 ```
 
 ### 2. Install dependencies
