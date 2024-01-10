@@ -28,6 +28,11 @@ The files under the '**prompt**' folder are prompts used in our work for differe
 
 ```
 cd FewRel/code
+
+python main.py run_train \
+--path_train data/new_split/new_train.json \
+--path_test data/new_split/new_train.json \
+--epochs 3
 ```
 
 
