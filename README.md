@@ -29,7 +29,6 @@ The files under the '**prompt**' folder are prompts used in our work for differe
 
 ```
 cd FewRel/code
-
 ```
 For FewRel, we wrote a simple relation extraction code, main.py to run our experiments. You may follow the instructions in the FewRel folder to run the code.
 
